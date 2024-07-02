@@ -1,0 +1,572 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.body{
+    background-color: #6e778c;
+    background-color: rgb(220, 237, 235);
+    /* background-color: #e7eff7; */
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1300px;
+    }
+@media only screen and (max-width: 576px) {
+        .c-img{
+          height: 200px;
+        }
+      }
+.container {
+    /* width: 100%; */
+    max-width: 1300px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 15px; /* Add padding to the sides */
+  }
+
+
+}
+/* Navbar styles */
+.navbar {
+    padding: 1rem 2rem; /* Adjust padding as needed */
+    
+}
+.hover:hover{
+       color:#3368c6 !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Adjust font size of navbar brand */
+    
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem; /* Adjust font size of navbar links */
+    
+}
+.nav-link-active{
+    color: #6e778c;
+}
+.navbar .navbar-nav .nav-item{
+    margin-right: 20px;
+}
+
+
+
+.dropdown-menu {
+    min-width: 10rem; /* Adjust minimum width of dropdown menus */
+}
+
+.dropdown-item {
+    font-size: 1rem; /* Adjust font size of dropdown items */
+}
+
+
+/* logo */
+.logo{
+    width: 150px;
+}
+
+/*appointment */
+.btn-secondary {
+    width: 250px;
+    min-height: 50px;
+    border-radius: 40px;
+    background-color: #033fbf;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btn-secondary:hover {
+    background-color: #3368c6; /* Sky blue */
+  }
+
+.card{
+    border-radius: 20px;
+    position: relative;
+}
+
+.card-container{
+    margin-top: 60px;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+
+/* icon */
+.icon-top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: aliceblue;
+    z-index: 2;
+}
+
+.clearfix{
+    margin-top: 100px;
+
+}
+/* slider */
+.slide{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .slide span i {
+    font-size: 110px;
+    -webkit-text-stroke: 1px black;
+    color: #fff;
+    transition: all ease 0.5s;
+    font-weight: 700;
+    font-family: "Sora", sans-serif;
+    text-shadow: 1px 1px 0 rgba(var(--pbmit-xcare-blackish-color-rgb), .8), -1px -1px 0 rgba(var(--pbmit-xcare-blackish-color-rgb), .8), 1px -1px 0 rgba(var(--pbmit-xcare-blackish-color-rgb), .8), -1px 1px 0 rgba(var(--pbmit-xcare-blackish-color-rgb), .8), 1px 1px 0 rgba(var(--pbmit-xcare-blackish-color-rgb), .8);
+  }
+  .rupe{
+    text-decoration-color: #031b4e;
+  }
+  .slide i:hover{
+    color: #031b4e;
+    transition: all ease 0.5s;
+  
+  }
+
+  .nav-contact{
+    color: #fff;
+    margin-right: 80px;
+  }
+/* rating cards */
+.owl-carousel .owl-item {
+    transition: all 0.3s ease-in-out;
+}
+
+.owl-carousel .owl-item .card {
+    padding: 30px;
+    position: relative;
+}
+
+.owl-carousel .owl-stage-outer {
+    overflow-y: auto !important;
+    padding-bottom: 40px;
+}
+
+.owl-carousel .owl-item img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.owl-carousel .owl-item .card .name {
+    position: absolute;
+    bottom: -20px;
+    left: 33%;
+    color: #101c81;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: aquamarine;
+    padding: 0.3rem 0.4rem;
+    border-radius: 5px;
+    box-shadow: 2px 3px 15px #3c405a;
+}
+
+.owl-carousel .owl-item .card {
+    opacity: 0.2;
+    transform: scale3d(0.8, 0.8, 0.8);
+    transition: all 0.3s ease-in-out;
+}
+
+.owl-carousel .owl-item.active.center .card {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+}
+
+.owl-carousel .owl-dots {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    height: 20px;
+    background: #2a6ba3 !important;
+    border-radius: 2px !important;
+    opacity: 0.8;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    height: 13px;
+    width: 13px;
+    opacity: 1;
+    transform: translateY(2px);
+    background: #83b8e7 !important;
+}
+
+@media(min-width: 480.6px) and (max-width: 575.5px) {
+    .owl-carousel .owl-item .card .name {
+        left: 24%;
+    }
+}
+
+@media(max-width: 360px) {
+    .owl-carousel .owl-item .card .name {
+        left: 30%;
+    }
+}
+
+/* National Tour Start */
+.ExploreTour #NationalTab-1 .national-item {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ExploreTour #NationalTab-1 .national-item img {
+    transition: 0.5s;
+}
+
+.ExploreTour #NationalTab-1 .national-item:hover img {
+    transform: scale(1.2);
+}
+
+.ExploreTour #NationalTab-1 .national-item .national-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.ExploreTour #NationalTab-1 .national-item:hover .national-content {
+    background: rgba(19, 53, 123, .6);
+}
+
+.ExploreTour #NationalTab-1 .national-item .national-plus-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.ExploreTour #NationalTab-1 .national-item:hover .national-plus-icon {
+    opacity: 1;
+}
+
+.ExploreTour #NationalTab-1 .national-item .tour-offer {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    padding: 20px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 80px;
+    background: var(--bs-primary);
+    color: var(--bs-white);
+}
+
+/* International Tour Start */
+.ExploreTour #InternationalTab-2 .international-item {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ExploreTour #InternationalTab-2 .international-item img {
+    transition: 0.5s;
+}
+
+.ExploreTour #InternationalTab-2 .international-item:hover img {
+    transform: scale(1.2);
+}
+
+.ExploreTour #InternationalTab-2 .international-item .tour-offer {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    padding: 20px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 80px;
+    background: var(--bs-primary);
+    color: var(--bs-white);
+}
+
+.ExploreTour #InternationalTab-2 .international-item .international-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgba(0, 0, 0, .3);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.ExploreTour #InternationalTab-2 .international-item:hover .international-content {
+    background: rgba(19, 53, 123, .6);
+}
+
+.ExploreTour #InternationalTab-2 .international-item .international-content .international-info a {
+    font-size: 14px;
+}
+
+.ExploreTour #InternationalTab-2 .international-item .international-plus-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.ExploreTour #InternationalTab-2 .international-item:hover .international-plus-icon {
+    opacity: 1;
+}
+
+/* carousel Start */
+.ExploreTour #InternationalTab-2 .InternationalTour-carousel .international-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.ExploreTour #InternationalTab-2 .InternationalTour-carousel .owl-dots {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ExploreTour #InternationalTab-2 .InternationalTour-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background: var(--bs-light);
+    border: 1px solid var(--bs-primary);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.ExploreTour #InternationalTab-2 .InternationalTour-carousel .owl-dot.active {
+    width: 40px;
+    background: var(--bs-primary);
+}
+/*** Explore Tour End ***/
+ 
+
+
+/*** Gallery Start ***/
+.gallery .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.gallery .gallery-item img {
+    min-height: 300px;
+    object-fit: cover;
+}
+.national-item {
+    position: relative;
+    height: 400px; /* Set a fixed height for the cards */
+}
+
+.national-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery .gallery-item .gallery-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    transition: 0.5s;
+}
+
+.gallery .gallery-item .gallery-content .gallery-info {
+    position: relative;
+    margin-bottom: -100%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.gallery .gallery-item .gallery-plus-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.gallery .gallery-item:hover .gallery-content .gallery-info,
+.gallery .gallery-item:hover .gallery-plus-icon {
+   opacity: 1;
+   margin: 0;
+}
+
+.gallery .gallery-item img {
+    transition: 0.5s;
+}
+
+.gallery .gallery-item:hover img {
+    transform: scale(1.2);
+}
+
+.gallery .gallery-item:hover .gallery-content {
+    background: rgba(19, 53, 123, 0.8);
+}
+
+.gallery .tab-class .nav-item {
+    padding: 0 0 20px 0;
+}
+.gallery .tab-class .nav-item a.active {
+    background: var(--bs-primary) !important;
+}
+
+.gallery .tab-class .nav-item a.active span {
+    color: var(--bs-white) !important;
+}
+
+
+/*** Gallery End ***/
+
+/* col cards */
+.signup-section {
+    /* background-image: url('your-image-path.jpg'); 
+    background-size: cover;
+    background-position: center; */
+    position: absolute;
+    border-radius: 15px;
+    color: white;
+    z-index: 3;
+    top: 70px;
+    left: 0;
+}
+.col-cards{
+    position: relative;
+}
+.sub-img{
+    position: relative;
+    z-index: 1;
+}
+.career-banner{
+    height: 400px;
+    border-radius: 20px;
+}
+.newsletter-section{
+    height: 400px;
+}
+.signup-section .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+.signup-section .btn:hover {
+    background-color: #0056b3;
+}
+.newsletter-section {
+    background-color: #007bff;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+.newsletter-section .btn {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+}
+.newsletter-section .btn:hover {
+    background-color: #003f7f;
+}
+
+
+/* calender*/
+
+.event {
+    background-color: #e9f1ff;
+    border: 1px solid #d1e7ff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 100%;
+}
+.time-slot {
+    height: 100px;
+    border: 1px solid #e0e0e0;
+}
+.time-label {
+    
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+.day-column {
+    padding: 0;
+}
+.event-container {
+    position: relative;
+}
+
+
+
+
+
+/* latest blog */
+
+
+h2 {
+    font-size: 2rem;
+    color: #343a40;
+}
+
+.card-title {
+    /* font-size: 1rem; */
+    color: #007bff;
+}
+
+.card-text small {
+    color: #6c757d;
+}
+
+/* Remove hover effect on cards */
+.card-1:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.body{
+    background-color: #6e778c;
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1300px;
+    }
+.container {
+    /* width: 100%; */
+    max-width: 1300px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 15px; /* Add padding to the sides */
+  }
+
+
+}
+/* Navbar styles */
+.navbar {
+    padding: 1rem 2rem; /* Adjust padding as needed */
+    
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Adjust font size of navbar brand */
+    
+}
+.hover:hover{
+    color: #3368c6 !important;
+    
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem; /* Adjust font size of navbar links */
+    
+}
+.nav-link-active{
+    color: #6e778c;
+}
+.navbar .navbar-nav .nav-item{
+    margin-right: 20px;
+}
+
+/* .navbar-light .navbar-toggler-icon { */
+    /* Customize navbar toggler icon if needed */
+/* } */
+
+.dropdown-menu {
+    min-width: 10rem; /* Adjust minimum width of dropdown menus */
+}
+
+.dropdown-item {
+    font-size: 1rem; /* Adjust font size of dropdown items */
+}
+
+
+/* logo */
+.logo{
+    width: 150px;
+}
+
+.carousel-img{
+    height: 100vh;
+    border-radius: 16px;
+}
+
+
+
+/*appointment */
+.btn-secondary {
+    width: 250px;
+    min-height: 50px;
+    border-radius: 40px;
+    background-color: #033fbf;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btn-secondary:hover {
+    background-color: #3368c6; /* Sky blue */
+  }
+
+.card{
+    border-radius: 20px;
+    position: relative;
+}
+/* .external{
+    position: absolute;
+    padding-top: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: -15px;
+    right: -15px;
+    width: 80px;
+    height: 80px;
+} */
+.card-container{
+    margin-top: 100px;
+}
+
+
+/* cards */
+.card-container {
+    margin-top: 20px;
+  }
+  .card {
+    border-radius: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-text p {
+    margin: 0;
+  }
